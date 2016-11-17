@@ -1,0 +1,346 @@
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_PROGRAM_VERSION	5.8	//
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+Args	ropgadget/__init__.py	/^    from   ropgadget.args import Args$/;"	i
+Core	ropgadget/__init__.py	/^    from   ropgadget.core import Core$/;"	i
+args	ropgadget/__init__.py	/^import ropgadget.args$/;"	i
+binary	ropgadget/__init__.py	/^import ropgadget.binary$/;"	i
+core	ropgadget/__init__.py	/^import ropgadget.core$/;"	i
+gadgets	ropgadget/__init__.py	/^import ropgadget.gadgets$/;"	i
+loaders	ropgadget/__init__.py	/^import ropgadget.loaders$/;"	i
+main	ropgadget/__init__.py	/^def main():$/;"	f
+options	ropgadget/__init__.py	/^import ropgadget.options$/;"	i
+rgutils	ropgadget/__init__.py	/^import ropgadget.rgutils$/;"	i
+ropchain	ropgadget/__init__.py	/^import ropgadget.ropchain$/;"	i
+ropgadget	ropgadget/__init__.py	/^import ropgadget.args$/;"	i
+ropgadget	ropgadget/__init__.py	/^import ropgadget.binary$/;"	i
+ropgadget	ropgadget/__init__.py	/^import ropgadget.core$/;"	i
+ropgadget	ropgadget/__init__.py	/^import ropgadget.gadgets$/;"	i
+ropgadget	ropgadget/__init__.py	/^import ropgadget.loaders$/;"	i
+ropgadget	ropgadget/__init__.py	/^import ropgadget.options$/;"	i
+ropgadget	ropgadget/__init__.py	/^import ropgadget.rgutils$/;"	i
+ropgadget	ropgadget/__init__.py	/^import ropgadget.ropchain$/;"	i
+ropgadget	ropgadget/__init__.py	/^import ropgadget.updateAlert$/;"	i
+ropgadget	ropgadget/__init__.py	/^import ropgadget.version$/;"	i
+sys	ropgadget/__init__.py	/^    import sys$/;"	i
+updateAlert	ropgadget/__init__.py	/^import ropgadget.updateAlert$/;"	i
+version	ropgadget/__init__.py	/^import ropgadget.version$/;"	i
+Args	ropgadget/args.py	/^class Args:$/;"	c
+UpdateAlert	ropgadget/args.py	/^from ropgadget.updateAlert import UpdateAlert$/;"	i
+__init__	ropgadget/args.py	/^    def __init__(self, arguments=None):$/;"	m	class:Args
+__parse	ropgadget/args.py	/^    def __parse(self, arguments, custom_arguments_provided=False):$/;"	m	class:Args	file:
+__printVersion	ropgadget/args.py	/^    def __printVersion(self):$/;"	m	class:Args	file:
+argparse	ropgadget/args.py	/^import argparse$/;"	i
+getArgs	ropgadget/args.py	/^    def getArgs(self):$/;"	m	class:Args
+sys	ropgadget/args.py	/^import sys$/;"	i
+Binary	ropgadget/binary.py	/^class Binary:$/;"	c
+__init__	ropgadget/binary.py	/^    def __init__(self, options):$/;"	m	class:Binary
+getArch	ropgadget/binary.py	/^    def getArch(self):$/;"	m	class:Binary
+getArchMode	ropgadget/binary.py	/^    def getArchMode(self):$/;"	m	class:Binary
+getBinary	ropgadget/binary.py	/^    def getBinary(self):$/;"	m	class:Binary
+getDataSections	ropgadget/binary.py	/^    def getDataSections(self):$/;"	m	class:Binary
+getEntryPoint	ropgadget/binary.py	/^    def getEntryPoint(self):$/;"	m	class:Binary
+getExecSections	ropgadget/binary.py	/^    def getExecSections(self):$/;"	m	class:Binary
+getFileName	ropgadget/binary.py	/^    def getFileName(self):$/;"	m	class:Binary
+getFormat	ropgadget/binary.py	/^    def getFormat(self):$/;"	m	class:Binary
+getRawBinary	ropgadget/binary.py	/^    def getRawBinary(self):$/;"	m	class:Binary
+unhexlify	ropgadget/binary.py	/^from binascii import unhexlify$/;"	i
+Binary	ropgadget/core.py	/^from ropgadget.binary             import Binary$/;"	i
+CS_MODE_32	ropgadget/core.py	/^from capstone                     import CS_MODE_32$/;"	i
+Core	ropgadget/core.py	/^class Core(cmd.Cmd):$/;"	c
+Gadgets	ropgadget/core.py	/^from ropgadget.gadgets            import Gadgets$/;"	i
+Options	ropgadget/core.py	/^from ropgadget.options            import Options$/;"	i
+ROPMaker	ropgadget/core.py	/^from ropgadget.ropchain.ropmaker  import ROPMaker$/;"	i
+__checksBeforeManipulations	ropgadget/core.py	/^    def __checksBeforeManipulations(self):$/;"	m	class:Core	file:
+__getAllgadgets	ropgadget/core.py	/^    def __getAllgadgets(self):$/;"	m	class:Core	file:
+__init__	ropgadget/core.py	/^    def __init__(self, options):$/;"	m	class:Core
+__lookingForAString	ropgadget/core.py	/^    def __lookingForAString(self, string):$/;"	m	class:Core	file:
+__lookingForGadgets	ropgadget/core.py	/^    def __lookingForGadgets(self):$/;"	m	class:Core	file:
+__lookingForMemStr	ropgadget/core.py	/^    def __lookingForMemStr(self, memstr):$/;"	m	class:Core	file:
+__lookingForOpcodes	ropgadget/core.py	/^    def __lookingForOpcodes(self, opcodes):$/;"	m	class:Core	file:
+__withK	ropgadget/core.py	/^    def __withK(self, listK, gadget):$/;"	m	class:Core	file:
+__withoutK	ropgadget/core.py	/^    def __withoutK(self, listK, gadget):$/;"	m	class:Core	file:
+analyze	ropgadget/core.py	/^    def analyze(self):$/;"	m	class:Core
+cmd	ropgadget/core.py	/^import cmd$/;"	i
+count	ropgadget/core.py	/^    def count(self):$/;"	m	class:Core
+do_EOF	ropgadget/core.py	/^    def do_EOF(self, s, silent=False):$/;"	m	class:Core
+do_all	ropgadget/core.py	/^    def do_all(self, s, silent=False):$/;"	m	class:Core
+do_badbytes	ropgadget/core.py	/^    def do_badbytes(self, s, silent=False):$/;"	m	class:Core
+do_binary	ropgadget/core.py	/^    def do_binary(self, s, silent=False):$/;"	m	class:Core
+do_count	ropgadget/core.py	/^    def do_count(self, s, silent=False):$/;"	m	class:Core
+do_depth	ropgadget/core.py	/^    def do_depth(self, s, silent=False):$/;"	m	class:Core
+do_display	ropgadget/core.py	/^    def do_display(self, s, silent=False):$/;"	m	class:Core
+do_filter	ropgadget/core.py	/^    def do_filter(self, s, silent=False):$/;"	m	class:Core
+do_load	ropgadget/core.py	/^    def do_load(self, s, silent=False):$/;"	m	class:Core
+do_multibr	ropgadget/core.py	/^    def do_multibr(self, s, silent=False):$/;"	m	class:Core
+do_nojop	ropgadget/core.py	/^    def do_nojop(self, s, silent=False):$/;"	m	class:Core
+do_norop	ropgadget/core.py	/^    def do_norop(self, s, silent=False):$/;"	m	class:Core
+do_nosys	ropgadget/core.py	/^    def do_nosys(self, s, silent=False):$/;"	m	class:Core
+do_only	ropgadget/core.py	/^    def do_only(self, s, silent=False):$/;"	m	class:Core
+do_quit	ropgadget/core.py	/^    def do_quit(self, s, silent=False):$/;"	m	class:Core
+do_range	ropgadget/core.py	/^    def do_range(self, s, silent=False):$/;"	m	class:Core
+do_search	ropgadget/core.py	/^    def do_search(self, s, silent=False):$/;"	m	class:Core
+do_settings	ropgadget/core.py	/^    def do_settings(self, s, silent=False):$/;"	m	class:Core
+do_thumb	ropgadget/core.py	/^    def do_thumb(self, s, silent=False):$/;"	m	class:Core
+gadgets	ropgadget/core.py	/^    def gadgets(self):$/;"	m	class:Core
+help_all	ropgadget/core.py	/^    def help_all(self):$/;"	m	class:Core
+help_badbytes	ropgadget/core.py	/^    def help_badbytes(self):$/;"	m	class:Core
+help_binary	ropgadget/core.py	/^    def help_binary(self):$/;"	m	class:Core
+help_count	ropgadget/core.py	/^    def help_count(self):$/;"	m	class:Core
+help_depth	ropgadget/core.py	/^    def help_depth(self):$/;"	m	class:Core
+help_display	ropgadget/core.py	/^    def help_display(self):$/;"	m	class:Core
+help_filter	ropgadget/core.py	/^    def help_filter(self):$/;"	m	class:Core
+help_load	ropgadget/core.py	/^    def help_load(self):$/;"	m	class:Core
+help_multibr	ropgadget/core.py	/^    def help_multibr(self):$/;"	m	class:Core
+help_nojop	ropgadget/core.py	/^    def help_nojop(self):$/;"	m	class:Core
+help_norop	ropgadget/core.py	/^    def help_norop(self):$/;"	m	class:Core
+help_nosys	ropgadget/core.py	/^    def help_nosys(self):$/;"	m	class:Core
+help_only	ropgadget/core.py	/^    def help_only(self):$/;"	m	class:Core
+help_quit	ropgadget/core.py	/^    def help_quit(self):$/;"	m	class:Core
+help_range	ropgadget/core.py	/^    def help_range(self):$/;"	m	class:Core
+help_search	ropgadget/core.py	/^    def help_search(self):$/;"	m	class:Core
+help_settings	ropgadget/core.py	/^    def help_settings(self):$/;"	m	class:Core
+help_thumb	ropgadget/core.py	/^    def help_thumb(self):$/;"	m	class:Core
+os	ropgadget/core.py	/^import os$/;"	i
+re	ropgadget/core.py	/^import re$/;"	i
+rgutils	ropgadget/core.py	/^import ropgadget.rgutils as rgutils$/;"	i
+ropgadget	ropgadget/core.py	/^import ropgadget.rgutils as rgutils$/;"	i
+sqlite3	ropgadget/core.py	/^import sqlite3$/;"	i
+Gadgets	ropgadget/gadgets.py	/^class Gadgets:$/;"	c
+__checkInstructionBlackListedX86	ropgadget/gadgets.py	/^    def __checkInstructionBlackListedX86(self, insts):$/;"	m	class:Gadgets	file:
+__checkMultiBr	ropgadget/gadgets.py	/^    def __checkMultiBr(self, insts, br):$/;"	m	class:Gadgets	file:
+__gadgetsFinding	ropgadget/gadgets.py	/^    def __gadgetsFinding(self, section, gadgets, arch, mode):$/;"	m	class:Gadgets	file:
+__init__	ropgadget/gadgets.py	/^    def __init__(self, binary, options, offset):$/;"	m	class:Gadgets
+__passCleanX86	ropgadget/gadgets.py	/^    def __passCleanX86(self, gadgets, multibr=False):$/;"	m	class:Gadgets	file:
+addJOPGadgets	ropgadget/gadgets.py	/^    def addJOPGadgets(self, section):$/;"	m	class:Gadgets
+addROPGadgets	ropgadget/gadgets.py	/^    def addROPGadgets(self, section):$/;"	m	class:Gadgets
+addSYSGadgets	ropgadget/gadgets.py	/^    def addSYSGadgets(self, section):$/;"	m	class:Gadgets
+passClean	ropgadget/gadgets.py	/^    def passClean(self, gadgets, multibr):$/;"	m	class:Gadgets
+re	ropgadget/gadgets.py	/^import re$/;"	i
+elf	ropgadget/loaders/__init__.py	/^import ropgadget.loaders.elf$/;"	i
+loaders	ropgadget/loaders/__init__.py	/^import ropgadget.loaders.elf$/;"	i
+loaders	ropgadget/loaders/__init__.py	/^import ropgadget.loaders.macho$/;"	i
+loaders	ropgadget/loaders/__init__.py	/^import ropgadget.loaders.pe$/;"	i
+loaders	ropgadget/loaders/__init__.py	/^import ropgadget.loaders.raw$/;"	i
+macho	ropgadget/loaders/__init__.py	/^import ropgadget.loaders.macho$/;"	i
+pe	ropgadget/loaders/__init__.py	/^import ropgadget.loaders.pe$/;"	i
+raw	ropgadget/loaders/__init__.py	/^import ropgadget.loaders.raw$/;"	i
+ropgadget	ropgadget/loaders/__init__.py	/^import ropgadget.loaders.elf$/;"	i
+ropgadget	ropgadget/loaders/__init__.py	/^import ropgadget.loaders.macho$/;"	i
+ropgadget	ropgadget/loaders/__init__.py	/^import ropgadget.loaders.pe$/;"	i
+ropgadget	ropgadget/loaders/__init__.py	/^import ropgadget.loaders.raw$/;"	i
+EI_CLASS	ropgadget/loaders/elf.py	/^    EI_CLASS    = 0x04$/;"	v	class:ELFFlags
+EI_DATA	ropgadget/loaders/elf.py	/^    EI_DATA     = 0x05$/;"	v	class:ELFFlags
+ELF	ropgadget/loaders/elf.py	/^class ELF:$/;"	c
+ELFCLASS32	ropgadget/loaders/elf.py	/^    ELFCLASS32  = 0x01$/;"	v	class:ELFFlags
+ELFCLASS64	ropgadget/loaders/elf.py	/^    ELFCLASS64  = 0x02$/;"	v	class:ELFFlags
+ELFDATA2LSB	ropgadget/loaders/elf.py	/^    ELFDATA2LSB = 0x01$/;"	v	class:ELFFlags
+ELFDATA2MSB	ropgadget/loaders/elf.py	/^    ELFDATA2MSB = 0x02$/;"	v	class:ELFFlags
+ELFFlags	ropgadget/loaders/elf.py	/^class ELFFlags:$/;"	c
+EM_386	ropgadget/loaders/elf.py	/^    EM_386      = 0x03$/;"	v	class:ELFFlags
+EM_ARM	ropgadget/loaders/elf.py	/^    EM_ARM      = 0x28$/;"	v	class:ELFFlags
+EM_ARM64	ropgadget/loaders/elf.py	/^    EM_ARM64    = 0xb7$/;"	v	class:ELFFlags
+EM_MIPS	ropgadget/loaders/elf.py	/^    EM_MIPS     = 0x08$/;"	v	class:ELFFlags
+EM_PowerPC	ropgadget/loaders/elf.py	/^    EM_PowerPC  = 0x14$/;"	v	class:ELFFlags
+EM_SPARCv8p	ropgadget/loaders/elf.py	/^    EM_SPARCv8p = 0x12$/;"	v	class:ELFFlags
+EM_X86_64	ropgadget/loaders/elf.py	/^    EM_X86_64   = 0x3e$/;"	v	class:ELFFlags
+Elf32_Ehdr_LSB	ropgadget/loaders/elf.py	/^class Elf32_Ehdr_LSB(LittleEndianStructure):$/;"	c
+Elf32_Ehdr_MSB	ropgadget/loaders/elf.py	/^class Elf32_Ehdr_MSB(BigEndianStructure):$/;"	c
+Elf32_Phdr_LSB	ropgadget/loaders/elf.py	/^class Elf32_Phdr_LSB(LittleEndianStructure):$/;"	c
+Elf32_Phdr_MSB	ropgadget/loaders/elf.py	/^class Elf32_Phdr_MSB(BigEndianStructure):$/;"	c
+Elf32_Shdr_LSB	ropgadget/loaders/elf.py	/^class Elf32_Shdr_LSB(LittleEndianStructure):$/;"	c
+Elf32_Shdr_MSB	ropgadget/loaders/elf.py	/^class Elf32_Shdr_MSB(BigEndianStructure):$/;"	c
+Elf64_Ehdr_LSB	ropgadget/loaders/elf.py	/^class Elf64_Ehdr_LSB(LittleEndianStructure):$/;"	c
+Elf64_Ehdr_MSB	ropgadget/loaders/elf.py	/^class Elf64_Ehdr_MSB(BigEndianStructure):$/;"	c
+Elf64_Phdr_LSB	ropgadget/loaders/elf.py	/^class Elf64_Phdr_LSB(LittleEndianStructure):$/;"	c
+Elf64_Phdr_MSB	ropgadget/loaders/elf.py	/^class Elf64_Phdr_MSB(BigEndianStructure):$/;"	c
+Elf64_Shdr_LSB	ropgadget/loaders/elf.py	/^class Elf64_Shdr_LSB(LittleEndianStructure):$/;"	c
+Elf64_Shdr_MSB	ropgadget/loaders/elf.py	/^class Elf64_Shdr_MSB(BigEndianStructure):$/;"	c
+__init__	ropgadget/loaders/elf.py	/^    def __init__(self, binary):$/;"	m	class:ELF
+__setHeaderElf	ropgadget/loaders/elf.py	/^    def __setHeaderElf(self):$/;"	m	class:ELF	file:
+__setPhdr	ropgadget/loaders/elf.py	/^    def __setPhdr(self):$/;"	m	class:ELF	file:
+__setShdr	ropgadget/loaders/elf.py	/^    def __setShdr(self):$/;"	m	class:ELF	file:
+_fields_	ropgadget/loaders/elf.py	/^    _fields_ =  [$/;"	v	class:Elf32_Ehdr_LSB
+_fields_	ropgadget/loaders/elf.py	/^    _fields_ =  [$/;"	v	class:Elf32_Ehdr_MSB
+_fields_	ropgadget/loaders/elf.py	/^    _fields_ =  [$/;"	v	class:Elf32_Phdr_LSB
+_fields_	ropgadget/loaders/elf.py	/^    _fields_ =  [$/;"	v	class:Elf32_Phdr_MSB
+_fields_	ropgadget/loaders/elf.py	/^    _fields_ =  [$/;"	v	class:Elf32_Shdr_LSB
+_fields_	ropgadget/loaders/elf.py	/^    _fields_ =  [$/;"	v	class:Elf32_Shdr_MSB
+_fields_	ropgadget/loaders/elf.py	/^    _fields_ =  [$/;"	v	class:Elf64_Ehdr_LSB
+_fields_	ropgadget/loaders/elf.py	/^    _fields_ =  [$/;"	v	class:Elf64_Ehdr_MSB
+_fields_	ropgadget/loaders/elf.py	/^    _fields_ =  [$/;"	v	class:Elf64_Phdr_LSB
+_fields_	ropgadget/loaders/elf.py	/^    _fields_ =  [$/;"	v	class:Elf64_Phdr_MSB
+_fields_	ropgadget/loaders/elf.py	/^    _fields_ =  [$/;"	v	class:Elf64_Shdr_LSB
+_fields_	ropgadget/loaders/elf.py	/^    _fields_ =  [$/;"	v	class:Elf64_Shdr_MSB
+getArch	ropgadget/loaders/elf.py	/^    def getArch(self):$/;"	m	class:ELF
+getArchMode	ropgadget/loaders/elf.py	/^    def getArchMode(self):$/;"	m	class:ELF
+getDataSections	ropgadget/loaders/elf.py	/^    def getDataSections(self):$/;"	m	class:ELF
+getEntryPoint	ropgadget/loaders/elf.py	/^    def getEntryPoint(self):$/;"	m	class:ELF
+getExecSections	ropgadget/loaders/elf.py	/^    def getExecSections(self):$/;"	m	class:ELF
+getFormat	ropgadget/loaders/elf.py	/^    def getFormat(self):$/;"	m	class:ELF
+unpack	ropgadget/loaders/elf.py	/^from struct     import unpack$/;"	i
+CPU_TYPE_ARM	ropgadget/loaders/macho.py	/^    CPU_TYPE_ARM                = 12$/;"	v	class:MACHOFlags
+CPU_TYPE_I386	ropgadget/loaders/macho.py	/^    CPU_TYPE_I386               = 0x7$/;"	v	class:MACHOFlags
+CPU_TYPE_MIPS	ropgadget/loaders/macho.py	/^    CPU_TYPE_MIPS               = 0x8$/;"	v	class:MACHOFlags
+CPU_TYPE_POWERPC	ropgadget/loaders/macho.py	/^    CPU_TYPE_POWERPC            = 18$/;"	v	class:MACHOFlags
+CPU_TYPE_POWERPC64	ropgadget/loaders/macho.py	/^    CPU_TYPE_POWERPC64          = (CPU_TYPE_POWERPC | 0x1000000)$/;"	v	class:MACHOFlags
+CPU_TYPE_SPARC	ropgadget/loaders/macho.py	/^    CPU_TYPE_SPARC              = 14$/;"	v	class:MACHOFlags
+CPU_TYPE_X86_64	ropgadget/loaders/macho.py	/^    CPU_TYPE_X86_64             = (CPU_TYPE_I386 | 0x1000000)$/;"	v	class:MACHOFlags
+LC_SEGMENT	ropgadget/loaders/macho.py	/^    LC_SEGMENT                  = 0x1$/;"	v	class:MACHOFlags
+LC_SEGMENT_64	ropgadget/loaders/macho.py	/^    LC_SEGMENT_64               = 0x19$/;"	v	class:MACHOFlags
+LOAD_COMMAND	ropgadget/loaders/macho.py	/^class LOAD_COMMAND(Structure):$/;"	c
+MACHO	ropgadget/loaders/macho.py	/^class MACHO:$/;"	c
+MACHOFlags	ropgadget/loaders/macho.py	/^class MACHOFlags:$/;"	c
+MACH_HEADER	ropgadget/loaders/macho.py	/^class MACH_HEADER(Structure):$/;"	c
+SECTION	ropgadget/loaders/macho.py	/^class SECTION(Structure):$/;"	c
+SECTION64	ropgadget/loaders/macho.py	/^class SECTION64(Structure):$/;"	c
+SEGMENT_COMMAND	ropgadget/loaders/macho.py	/^class SEGMENT_COMMAND(Structure):$/;"	c
+SEGMENT_COMMAND64	ropgadget/loaders/macho.py	/^class SEGMENT_COMMAND64(Structure):$/;"	c
+S_ATTR_PURE_INSTRUCTIONS	ropgadget/loaders/macho.py	/^    S_ATTR_PURE_INSTRUCTIONS    = 0x80000000$/;"	v	class:MACHOFlags
+S_ATTR_SOME_INSTRUCTIONS	ropgadget/loaders/macho.py	/^    S_ATTR_SOME_INSTRUCTIONS    = 0x00000400$/;"	v	class:MACHOFlags
+__init__	ropgadget/loaders/macho.py	/^    def __init__(self, binary):$/;"	m	class:MACHO
+__setHeader	ropgadget/loaders/macho.py	/^    def __setHeader(self):$/;"	m	class:MACHO	file:
+__setLoadCmd	ropgadget/loaders/macho.py	/^    def __setLoadCmd(self):$/;"	m	class:MACHO	file:
+__setSections	ropgadget/loaders/macho.py	/^    def __setSections(self, sectionsNumber, base, sizeHeader):$/;"	m	class:MACHO	file:
+_fields_	ropgadget/loaders/macho.py	/^    _fields_ = [$/;"	v	class:LOAD_COMMAND
+_fields_	ropgadget/loaders/macho.py	/^    _fields_ = [$/;"	v	class:MACH_HEADER
+_fields_	ropgadget/loaders/macho.py	/^    _fields_ = [$/;"	v	class:SECTION
+_fields_	ropgadget/loaders/macho.py	/^    _fields_ = [$/;"	v	class:SECTION64
+_fields_	ropgadget/loaders/macho.py	/^    _fields_ = [$/;"	v	class:SEGMENT_COMMAND
+_fields_	ropgadget/loaders/macho.py	/^    _fields_ = [$/;"	v	class:SEGMENT_COMMAND64
+getArch	ropgadget/loaders/macho.py	/^    def getArch(self):$/;"	m	class:MACHO
+getArchMode	ropgadget/loaders/macho.py	/^    def getArchMode(self):$/;"	m	class:MACHO
+getDataSections	ropgadget/loaders/macho.py	/^    def getDataSections(self):$/;"	m	class:MACHO
+getEntryPoint	ropgadget/loaders/macho.py	/^    def getEntryPoint(self):$/;"	m	class:MACHO
+getExecSections	ropgadget/loaders/macho.py	/^    def getExecSections(self):$/;"	m	class:MACHO
+getFormat	ropgadget/loaders/macho.py	/^    def getFormat(self):$/;"	m	class:MACHO
+IMAGE_FILE_HEADER	ropgadget/loaders/pe.py	/^class IMAGE_FILE_HEADER(Structure):$/;"	c
+IMAGE_FILE_MACHINE_ARM	ropgadget/loaders/pe.py	/^        IMAGE_FILE_MACHINE_ARM        = 0x1c0$/;"	v	class:PEFlags
+IMAGE_FILE_MACHINE_ARMV7	ropgadget/loaders/pe.py	/^        IMAGE_FILE_MACHINE_ARMV7      = 0x1c4$/;"	v	class:PEFlags
+IMAGE_MACHINE_AMD_8664	ropgadget/loaders/pe.py	/^        IMAGE_MACHINE_AMD_8664        = 0x8664$/;"	v	class:PEFlags
+IMAGE_MACHINE_INTEL_386	ropgadget/loaders/pe.py	/^        IMAGE_MACHINE_INTEL_386       = 0x014c$/;"	v	class:PEFlags
+IMAGE_NT_HEADERS	ropgadget/loaders/pe.py	/^class IMAGE_NT_HEADERS(Structure):$/;"	c
+IMAGE_NT_HEADERS64	ropgadget/loaders/pe.py	/^class IMAGE_NT_HEADERS64(Structure):$/;"	c
+IMAGE_NT_OPTIONAL_HDR32_MAGIC	ropgadget/loaders/pe.py	/^        IMAGE_NT_OPTIONAL_HDR32_MAGIC = 0x10b$/;"	v	class:PEFlags
+IMAGE_NT_OPTIONAL_HDR64_MAGIC	ropgadget/loaders/pe.py	/^        IMAGE_NT_OPTIONAL_HDR64_MAGIC = 0x20b$/;"	v	class:PEFlags
+IMAGE_OPTIONAL_HEADER	ropgadget/loaders/pe.py	/^class IMAGE_OPTIONAL_HEADER(Structure):$/;"	c
+IMAGE_OPTIONAL_HEADER64	ropgadget/loaders/pe.py	/^class IMAGE_OPTIONAL_HEADER64(Structure):$/;"	c
+IMAGE_SECTION_HEADER	ropgadget/loaders/pe.py	/^class IMAGE_SECTION_HEADER(Structure):$/;"	c
+IMAGE_SIZEOF_SHORT_NAME	ropgadget/loaders/pe.py	/^        IMAGE_SIZEOF_SHORT_NAME       = 0x8$/;"	v	class:PEFlags
+PE	ropgadget/loaders/pe.py	/^class PE:$/;"	c
+PEFlags	ropgadget/loaders/pe.py	/^class PEFlags:$/;"	c
+__getPEOffset	ropgadget/loaders/pe.py	/^    def __getPEOffset(self):$/;"	m	class:PE	file:
+__init__	ropgadget/loaders/pe.py	/^    def __init__(self, binary):$/;"	m	class:PE
+__parseOptHeader	ropgadget/loaders/pe.py	/^    def __parseOptHeader(self):$/;"	m	class:PE	file:
+__parsePEHeader	ropgadget/loaders/pe.py	/^    def __parsePEHeader(self):$/;"	m	class:PE	file:
+__parseSections	ropgadget/loaders/pe.py	/^    def __parseSections(self):$/;"	m	class:PE	file:
+_fields_	ropgadget/loaders/pe.py	/^    _fields_ =  [$/;"	v	class:IMAGE_FILE_HEADER
+_fields_	ropgadget/loaders/pe.py	/^    _fields_ =  [$/;"	v	class:IMAGE_NT_HEADERS
+_fields_	ropgadget/loaders/pe.py	/^    _fields_ =  [$/;"	v	class:IMAGE_NT_HEADERS64
+_fields_	ropgadget/loaders/pe.py	/^    _fields_ =  [$/;"	v	class:IMAGE_OPTIONAL_HEADER
+_fields_	ropgadget/loaders/pe.py	/^    _fields_ =  [$/;"	v	class:IMAGE_OPTIONAL_HEADER64
+_fields_	ropgadget/loaders/pe.py	/^    _fields_ =  [$/;"	v	class:IMAGE_SECTION_HEADER
+getArch	ropgadget/loaders/pe.py	/^    def getArch(self):$/;"	m	class:PE
+getArchMode	ropgadget/loaders/pe.py	/^    def getArchMode(self):$/;"	m	class:PE
+getDataSections	ropgadget/loaders/pe.py	/^    def getDataSections(self):$/;"	m	class:PE
+getEntryPoint	ropgadget/loaders/pe.py	/^    def getEntryPoint(self):$/;"	m	class:PE
+getExecSections	ropgadget/loaders/pe.py	/^    def getExecSections(self):$/;"	m	class:PE
+getFormat	ropgadget/loaders/pe.py	/^    def getFormat(self):$/;"	m	class:PE
+unhexlify	ropgadget/loaders/pe.py	/^from binascii   import unhexlify$/;"	i
+unpack	ropgadget/loaders/pe.py	/^from struct     import unpack$/;"	i
+Raw	ropgadget/loaders/raw.py	/^class Raw:$/;"	c
+__init__	ropgadget/loaders/raw.py	/^    def __init__(self, binary, arch, mode):$/;"	m	class:Raw
+getArch	ropgadget/loaders/raw.py	/^    def getArch(self):$/;"	m	class:Raw
+getArchMode	ropgadget/loaders/raw.py	/^    def getArchMode(self):$/;"	m	class:Raw
+getDataSections	ropgadget/loaders/raw.py	/^    def getDataSections(self):$/;"	m	class:Raw
+getEntryPoint	ropgadget/loaders/raw.py	/^    def getEntryPoint(self):$/;"	m	class:Raw
+getExecSections	ropgadget/loaders/raw.py	/^    def getExecSections(self):$/;"	m	class:Raw
+getFormat	ropgadget/loaders/raw.py	/^    def getFormat(self):$/;"	m	class:Raw
+CPU_TYPE_ARM	ropgadget/loaders/universal.py	/^    CPU_TYPE_ARM                = 12$/;"	v	class:MACHOFlags
+CPU_TYPE_I386	ropgadget/loaders/universal.py	/^    CPU_TYPE_I386               = 0x7$/;"	v	class:MACHOFlags
+CPU_TYPE_MIPS	ropgadget/loaders/universal.py	/^    CPU_TYPE_MIPS               = 0x8$/;"	v	class:MACHOFlags
+CPU_TYPE_POWERPC	ropgadget/loaders/universal.py	/^    CPU_TYPE_POWERPC            = 18$/;"	v	class:MACHOFlags
+CPU_TYPE_POWERPC64	ropgadget/loaders/universal.py	/^    CPU_TYPE_POWERPC64          = (CPU_TYPE_POWERPC | 0x1000000)$/;"	v	class:MACHOFlags
+CPU_TYPE_SPARC	ropgadget/loaders/universal.py	/^    CPU_TYPE_SPARC              = 14$/;"	v	class:MACHOFlags
+CPU_TYPE_X86_64	ropgadget/loaders/universal.py	/^    CPU_TYPE_X86_64             = (CPU_TYPE_I386 | 0x1000000)$/;"	v	class:MACHOFlags
+FAT_ARC	ropgadget/loaders/universal.py	/^class FAT_ARC(BigEndianStructure):$/;"	c
+FAT_HEADER	ropgadget/loaders/universal.py	/^class FAT_HEADER(BigEndianStructure):$/;"	c
+LC_SEGMENT	ropgadget/loaders/universal.py	/^    LC_SEGMENT                  = 0x1$/;"	v	class:MACHOFlags
+LC_SEGMENT_64	ropgadget/loaders/universal.py	/^    LC_SEGMENT_64               = 0x19$/;"	v	class:MACHOFlags
+MACHOFlags	ropgadget/loaders/universal.py	/^class MACHOFlags:$/;"	c
+S_ATTR_PURE_INSTRUCTIONS	ropgadget/loaders/universal.py	/^    S_ATTR_PURE_INSTRUCTIONS    = 0x80000000$/;"	v	class:MACHOFlags
+S_ATTR_SOME_INSTRUCTIONS	ropgadget/loaders/universal.py	/^    S_ATTR_SOME_INSTRUCTIONS    = 0x00000400$/;"	v	class:MACHOFlags
+UNIVERSAL	ropgadget/loaders/universal.py	/^class UNIVERSAL:$/;"	c
+__init__	ropgadget/loaders/universal.py	/^    def __init__(self, binary):$/;"	m	class:UNIVERSAL
+__setBinaries	ropgadget/loaders/universal.py	/^    def __setBinaries(self):$/;"	m	class:UNIVERSAL	file:
+__setHeader	ropgadget/loaders/universal.py	/^    def __setHeader(self):$/;"	m	class:UNIVERSAL	file:
+_fields_	ropgadget/loaders/universal.py	/^    _fields_ = [$/;"	v	class:FAT_ARC
+_fields_	ropgadget/loaders/universal.py	/^    _fields_ = [$/;"	v	class:FAT_HEADER
+getArch	ropgadget/loaders/universal.py	/^    def getArch(self):$/;"	m	class:UNIVERSAL
+getArchMode	ropgadget/loaders/universal.py	/^    def getArchMode(self):$/;"	m	class:UNIVERSAL
+getDataSections	ropgadget/loaders/universal.py	/^    def getDataSections(self):$/;"	m	class:UNIVERSAL
+getEntryPoint	ropgadget/loaders/universal.py	/^    def getEntryPoint(self):$/;"	m	class:UNIVERSAL
+getExecSections	ropgadget/loaders/universal.py	/^    def getExecSections(self):$/;"	m	class:UNIVERSAL
+getFormat	ropgadget/loaders/universal.py	/^    def getFormat(self):$/;"	m	class:UNIVERSAL
+sys	ropgadget/loaders/universal.py	/^import sys$/;"	i
+xrange	ropgadget/loaders/universal.py	/^    xrange = range$/;"	v
+CS_MODE_32	ropgadget/options.py	/^from capstone   import CS_MODE_32$/;"	i
+Options	ropgadget/options.py	/^class Options:$/;"	c
+__deleteBadBytes	ropgadget/options.py	/^    def __deleteBadBytes(self):$/;"	m	class:Options	file:
+__filterOption	ropgadget/options.py	/^    def __filterOption(self):$/;"	m	class:Options	file:
+__init__	ropgadget/options.py	/^    def __init__(self, options, binary, gadgets):$/;"	m	class:Options
+__onlyOption	ropgadget/options.py	/^    def __onlyOption(self):$/;"	m	class:Options	file:
+__rangeOption	ropgadget/options.py	/^    def __rangeOption(self):$/;"	m	class:Options	file:
+getGadgets	ropgadget/options.py	/^    def getGadgets(self):$/;"	m	class:Options
+pack	ropgadget/options.py	/^from struct     import pack$/;"	i
+alphaSortgadgets	ropgadget/rgutils.py	/^def alphaSortgadgets(currentGadgets):$/;"	f
+deleteDuplicateGadgets	ropgadget/rgutils.py	/^def deleteDuplicateGadgets(currentGadgets):$/;"	f
+arch	ropgadget/ropchain/__init__.py	/^import ropgadget.ropchain.arch$/;"	i
+ropchain	ropgadget/ropchain/__init__.py	/^import ropgadget.ropchain.arch$/;"	i
+ropchain	ropgadget/ropchain/__init__.py	/^import ropgadget.ropchain.ropmaker $/;"	i
+ropgadget	ropgadget/ropchain/__init__.py	/^import ropgadget.ropchain.arch$/;"	i
+ropgadget	ropgadget/ropchain/__init__.py	/^import ropgadget.ropchain.ropmaker $/;"	i
+ropmaker	ropgadget/ropchain/__init__.py	/^import ropgadget.ropchain.ropmaker $/;"	i
+arch	ropgadget/ropchain/arch/__init__.py	/^import ropgadget.ropchain.arch.ropmakerx64$/;"	i
+arch	ropgadget/ropchain/arch/__init__.py	/^import ropgadget.ropchain.arch.ropmakerx86$/;"	i
+ropchain	ropgadget/ropchain/arch/__init__.py	/^import ropgadget.ropchain.arch.ropmakerx64$/;"	i
+ropchain	ropgadget/ropchain/arch/__init__.py	/^import ropgadget.ropchain.arch.ropmakerx86$/;"	i
+ropgadget	ropgadget/ropchain/arch/__init__.py	/^import ropgadget.ropchain.arch.ropmakerx64$/;"	i
+ropgadget	ropgadget/ropchain/arch/__init__.py	/^import ropgadget.ropchain.arch.ropmakerx86$/;"	i
+ropmakerx64	ropgadget/ropchain/arch/__init__.py	/^import ropgadget.ropchain.arch.ropmakerx64$/;"	i
+ropmakerx86	ropgadget/ropchain/arch/__init__.py	/^import ropgadget.ropchain.arch.ropmakerx86$/;"	i
+ROPMakerX64	ropgadget/ropchain/arch/ropmakerx64.py	/^class ROPMakerX64:$/;"	c
+__buildRopChain	ropgadget/ropchain/arch/ropmakerx64.py	/^    def __buildRopChain(self, write4where, popDst, popSrc, xorSrc, xorRax, incRax, popRdi, popRsi, popRdx, syscall):$/;"	m	class:ROPMakerX64	file:
+__generate	ropgadget/ropchain/arch/ropmakerx64.py	/^    def __generate(self):$/;"	m	class:ROPMakerX64	file:
+__init__	ropgadget/ropchain/arch/ropmakerx64.py	/^    def __init__(self, binary, gadgets, liboffset=0x0):$/;"	m	class:ROPMakerX64
+__lookingForSomeThing	ropgadget/ropchain/arch/ropmakerx64.py	/^    def __lookingForSomeThing(self, something):$/;"	m	class:ROPMakerX64	file:
+__lookingForWrite4Where	ropgadget/ropchain/arch/ropmakerx64.py	/^    def __lookingForWrite4Where(self, gadgetsAlreadyTested):$/;"	m	class:ROPMakerX64	file:
+__padding	ropgadget/ropchain/arch/ropmakerx64.py	/^    def __padding(self, gadget, regAlreadSetted):$/;"	m	class:ROPMakerX64	file:
+n	ropgadget/ropchain/arch/ropmakerx64.py	/^        print("\\tfrom struct import pack\\n")$/;"	i
+pack	ropgadget/ropchain/arch/ropmakerx64.py	/^        print("\\tfrom struct import pack\\n")$/;"	i
+re	ropgadget/ropchain/arch/ropmakerx64.py	/^import re$/;"	i
+ROPMakerX86	ropgadget/ropchain/arch/ropmakerx86.py	/^class ROPMakerX86:$/;"	c
+__buildRopChain	ropgadget/ropchain/arch/ropmakerx86.py	/^    def __buildRopChain(self, write4where, popDst, popSrc, xorSrc, xorEax, incEax, popEbx, popEcx, popEdx, syscall):$/;"	m	class:ROPMakerX86	file:
+__generate	ropgadget/ropchain/arch/ropmakerx86.py	/^    def __generate(self):$/;"	m	class:ROPMakerX86	file:
+__init__	ropgadget/ropchain/arch/ropmakerx86.py	/^    def __init__(self, binary, gadgets, liboffset=0x0):$/;"	m	class:ROPMakerX86
+__lookingForSomeThing	ropgadget/ropchain/arch/ropmakerx86.py	/^    def __lookingForSomeThing(self, something):$/;"	m	class:ROPMakerX86	file:
+__lookingForWrite4Where	ropgadget/ropchain/arch/ropmakerx86.py	/^    def __lookingForWrite4Where(self, gadgetsAlreadyTested):$/;"	m	class:ROPMakerX86	file:
+__padding	ropgadget/ropchain/arch/ropmakerx86.py	/^    def __padding(self, gadget, regAlreadSetted):$/;"	m	class:ROPMakerX86	file:
+n	ropgadget/ropchain/arch/ropmakerx86.py	/^        print("\\tfrom struct import pack\\n")$/;"	i
+pack	ropgadget/ropchain/arch/ropmakerx86.py	/^        print("\\tfrom struct import pack\\n")$/;"	i
+re	ropgadget/ropchain/arch/ropmakerx86.py	/^import re$/;"	i
+ROPMaker	ropgadget/ropchain/ropmaker.py	/^class ROPMaker:$/;"	c
+__handlerArch	ropgadget/ropchain/ropmaker.py	/^    def __handlerArch(self):$/;"	m	class:ROPMaker	file:
+__init__	ropgadget/ropchain/ropmaker.py	/^    def __init__(self, binary, gadgets, offset):$/;"	m	class:ROPMaker
+UpdateAlert	ropgadget/updateAlert.py	/^class UpdateAlert(object):$/;"	c
+checkUpdate	ropgadget/updateAlert.py	/^    def checkUpdate():$/;"	m	class:UpdateAlert
+http	ropgadget/updateAlert.py	/^    import http.client as httplib$/;"	i
+httplib	ropgadget/updateAlert.py	/^    import http.client as httplib$/;"	i
+httplib	ropgadget/updateAlert.py	/^    import httplib$/;"	i
+re	ropgadget/updateAlert.py	/^import re$/;"	i
+MAJOR_VERSION	ropgadget/version.py	/^MAJOR_VERSION       = 5$/;"	v
+MINOR_VERSION	ropgadget/version.py	/^MINOR_VERSION       = 4$/;"	v
+PYROPGADGET_VERSION	ropgadget/version.py	/^PYROPGADGET_VERSION = "ROPgadget v%d.%d" %(MAJOR_VERSION, MINOR_VERSION)$/;"	v
